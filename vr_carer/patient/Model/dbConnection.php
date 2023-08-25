@@ -1,9 +1,11 @@
 <?php
-$hostname = "hosting-beyond-do-user-14484910-0.b.db.ondigitalocean.com";
+$hostname = "hosting-do-user-14484910-0.b.db.ondigitalocean.com";
 $port = "25060";
 $dbname = "vr_carer";
 $username = "doadmin";
-$password = "AVNS_odSp7G5IWykGCI5O0CB";
+$password = "AVNS_QQM3_9X2C9YcTwx6gzm";
 $pdo = new PDO(
-    "mysql:host=$hostname;port=$port;dbname=$dbname", 
-$username, $password);
+    "mysql:host=$hostname;port=$port;dbname=$dbname",
+    $username,
+    $password
+);
