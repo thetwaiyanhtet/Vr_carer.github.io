@@ -15,3 +15,8 @@ eye1.addEventListener("click", () => {
     ? (eye1.classList = "fa-solid fa-eye-slash icon")
     : (eye1.classList = "fa-solid fa-eye icon");
 });
+
+function sum(x,y) {
+  return x + y;
+}
+sum(2, 3);

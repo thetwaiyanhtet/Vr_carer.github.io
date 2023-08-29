@@ -107,7 +107,7 @@ if (!isset($_SESSION["email"])) {
                 <li class="card">
                     <div>
                         <div class="vaccine_div">
-                            <img src="./storages/medicine/<?= $medicine["medicine_image"] ?>" class="vaccine_img">
+                            <img src="../../admin/View/storages/medicine/<?= $medicine["medicine_image"] ?>" class="vaccine_img">
                         </div>
                         <h3 class="card-title"><?= $medicine["medicine_name"] ?></h3>
                         <div class="card-content">

@@ -77,7 +77,7 @@ if (!isset($_SESSION["login"])) {
                                     <td><?= $doctor["speciality"] ?></td>
                                     <td><?= $doctor["contact"] ?></td>
                                     <td id="image">
-                                        <img src="./storages/doctor/<?= $doctor["profile_photo"] ?>" alt="" class="image">
+                                        <img src="../../admin/View/storages/doctor/<?= $doctor["profile_photo"] ?>" alt="" class="image">
                                     </td>
                                     <td>
                                         <a href="../Controller/dateController.php?id=<?= $doctor["id"] ?>" class="color_sixth"><button class="edit_btn me-4" value="<?= $doctor["id"] ?>">Add</button></a>
